@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "895427481034",
+    "project_id": "flutter-assignments",
+    "storage_bucket": "flutter-assignments.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895427481034:android:3ff7fb3313b5eb27ec9333",
+        "android_client_info": {
+          "package_name": "com.harsh.flutter_assignments"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxx_NIJQ0pFCVrJHa-dFJQTzS30d2Vdv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
