@@ -11,7 +11,7 @@ class AppUseCase {
     return _appRepository.getCountries();
   }
 
-  Future<List<AppState>> getStates({required String countryId}) async {
+  Future<List<AppState>> getStates({required int countryId}) async {
     return _appRepository.getStates(countryId: countryId);
   }
 }

@@ -20,7 +20,7 @@ class AppImplementations implements AppRepository {
   }
 
   @override
-  Future<List<AppState>> getStates({required String countryId}) async {
+  Future<List<AppState>> getStates({required int countryId}) async {
     final response = await apiService.get('/countries/$countryId/states');
     if (response.data is List) {
       final List<dynamic> data = response.data;

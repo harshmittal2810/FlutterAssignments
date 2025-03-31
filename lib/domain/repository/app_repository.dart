@@ -10,5 +10,5 @@ abstract class AppRepository {
 
   Future<List<AppCountry>> getCountries();
 
-  Future<List<AppState>> getStates({required String countryId});
+  Future<List<AppState>> getStates({required int countryId});
 }
